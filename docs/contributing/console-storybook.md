@@ -1,8 +1,7 @@
 # Console Storybook
 
-Browse production Console pages, components, and Agent workflows against an
-in-memory fixture. Previews contact no services and run no workloads. Use dummy
-credentials.
+Production Console previews use in-memory fixtures. They contact no services and
+run no workloads. Use dummy credentials.
 
 ## Run locally
 
@@ -153,6 +152,10 @@ without repository access remains available. The recovery story keeps its saved
 Configuration and requires a current nonempty repository selection before retrying.
 The fixture does not verify operator prerequisites: GitHub App setup, Namespace
 approvals, runtime images, and credential-service networking.
+
+### Sharing
+
+Open **Change OpenClaw role** or **OpenClaw roles unavailable**.
 
 ### Return to loaded pages
 

@@ -113,6 +113,7 @@ export function bindPlatformUnitOfWork(
       "getAccessBinding",
       "listRestrictionsTargeting",
       "createAccessBinding",
+      "updateRuntimeRole",
       "deleteAccessBinding",
     ]),
     repositorySessions: bindRepository(repositories.repositorySessions, lifetime, [

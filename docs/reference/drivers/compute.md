@@ -15,7 +15,7 @@ the [feature matrix](compute-matrix.md), and
 
 ## Interface
 
-The [shared contracts](../../../packages/contracts/src/index.ts) define the types.
+Types: [shared contracts](../../../packages/contracts/src/index.ts).
 Every `ComputeDriver` has an `id`, `implementation`, and
 `capability: "compute"`.
 
@@ -62,6 +62,8 @@ Namespace results can mark a failure `retryable` or `permanent`; success
 requires a true flag and no failure.
 Methods without a return value must reject if they cannot complete. The revision
 context is optional in TypeScript; the worker supplies it after authorization.
+
+[Runtime access](../agent-native-admin.md) defines `listAgentRuntimeRoles`/`getAgentRuntimeAccess`.
 
 ### Optional additions
 
